@@ -22,6 +22,7 @@ def set_tpd_tpp(tpd, tpp):
     :return: tpd_nn_hop_dir, tpd_nn_hop_fac, tpp_nn_hop_fac
     """
     if pam.Norb == 5 or pam.Norb == 8:
+        uu = 1.
         tpd_nn_hop_dir = {'d3z2r2': ['L', 'R', 'U', 'D'],
                           'dx2y2': ['L', 'R', 'U', 'D']}
 
