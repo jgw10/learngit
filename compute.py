@@ -3,7 +3,7 @@ import time
 import parameters as pam
 import variational_space as vs
 import hamiltonian as ham
-import ground_state as gs
+# import ground_state as gs
 
 
 def compute_Aw_main(A, Uoo, Upp, ed, ep, eo, tpd, tpp, tdo, tpo):
